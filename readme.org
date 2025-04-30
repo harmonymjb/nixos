@@ -1,0 +1,8 @@
+* nixOS configuration
+
+** `flake.nix`
+
+This flake is the starting place for this configuration.
+It includes inputs for nixos nixpkgs (24.11), unstable nixpkgs,
+nixpkgs at a specific hash for updated plex server, home-manager,
+sops-nix, and the chemacs home-manager plugin.
